@@ -16,132 +16,95 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron" style="background-color:white">
-        <h1 id="title1">Caleb Jobe</h1>
-        <h2 id="title2">Devops Engineer • Designer • Developer</h2>
-      </div>
-      <div class="container-fluid" style="border:5px solid">
-        <div class="row">
-          <a
-            data-toggle="modal"
-            href="#myModal1"
-            class="col-sm-4"
-            style="background-color:rgb(8, 8, 59);color:whitesmoke"
-          >
-            <h1>Academic</h1>
-          </a>
-          <div id="myModal1" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">
-                    &times;
-                  </button>
-                  <h4 class="modal-title">Academic</h4>
-                </div>
-                <div class="modal-body">
-                  <h2>BA Cyber Engineering, Lousiana Tech University</h2>
-                  <p>
-                    Minor in Mathematics • Dean’s list x 2 • GPA 3.0 Course Work
-                    - Embedded systems, Network security, Digital Design,
-                    Circuits, Thermodynamics, Software Engineering, Operating
-                    Systems, Adv Networks, Networks, Intermediate Programming
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-default"
-                    data-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+  <body style="background-color:teal">
+  <!-- Header -->
+<div class="header">
+    <img src = "logo1.png">
+  </div>
+  
+  <!-- Navigation Bar -->
+  <div class="navbar">
+              <img src="git.png" class="icons"style="background-color: lightblue">
+              <img src="email.png" class="icons" style="background-color: coral">
+              <img src="linkedin.png" class="icons"style="background-color: lightblue">
+              <img src="phone.png" class="icons"style="background-color: coral">
+  </div>
+  
+  <!-- The flexible grid (content) -->
+  <div class="row">
+      <div class="column" style="padding-left: 2%">
+          <div class="wrapper">
+        <div class="grid_element" style="background-color: lightblue">
 
-          <a
-            data-toggle="modal"
-            href="#myModal2"
-            class="col-sm-4"
-            style="background-color:#9e9e72;color:whitesmoke;"
-          >
-            <h1>Professional</h1>
-          </a>
-          <div id="myModal2" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">
-                    &times;
-                  </button>
-                  <h4 class="modal-title">Professional</h4>
-                </div>
-                <div class="modal-body">
-                  <pre>
-                      MAY 2017 – TO PRESENT
-                      ASSOCIATE CONSULTANT, FENWAY GROUP
-                      FEB 2018 – TO PRESENT
-                      DEVOPS ENGINEER, SOUTHWEST AIRLINES
-                      My responsibilities include developing deployment automation using Chef and Jenkins, making improvements to network infrastructure, and testing and deploying code releases.
-                      MAY 2017 – TO FEB 2018
-                      SOFTWARE DEVELOPER, CENTURYLINK
-                      While on the Century Data Assurance pod, I was on four-man scrum development team.  We were tasked with building an application using JavaScript and Electron to streamline the process of identifying and sorting critical data.
-                      </pre
-                  >
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-default"
-                    data-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
-            </div>
+            <h1 class="header1">
+                About Me
+              </h1>
+              <div style="padding-left:10px">
+        <h1>Caleb Jobe</h1>
+        <h2 style="font-size: 20px"> Cyber Engineer - DevOps Engineer - Software Developer</h2>
+        <p style="font-size: 16px; color:black">Upcoming summer graduate with two years of experience in industry and a certified scrum developer seeking a software development position.  I thrive in self-directed and team-oriented positions.  I’m a hard worker and am always eager to learn new technologies and skills.</p> 
+      </div>
+      </div>
+        </div>
+        <div class="wrapper">
+
+        <div class="grid_element">
+
+          <h1 class="header2">
+            Skills
+          </h1>
+          <div class="row1">
+              <div class="column1">
+          <img src="js.png" class="skills"style="background-color: lightblue">
+          <img src="html.png" class="skills"style="background-color: coral">
+        </div>
+          <div class="column1">
+          <img src="python.png" class="skills"style="background-color: coral">
+          <img src="git1.png" class="skills"style="background-color: lightblue">
+        </div>
+          <div class="column1">
+          <img src="react.png" class="skills"style="background-color: lightblue">
+          <img src="redhat.png" class="skills"style="background-color: coral">
           </div>
-          <a
-            data-toggle="modal"
-            href="#myModal3"
-            class="col-sm-4"
-            style="background-color:rgb(8, 8, 59);color:white;"
-          >
-            <h1>Side Stuff</h1>
-          </a>
-          <div id="myModal3" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">
-                    &times;
-                  </button>
-                  <h4 class="modal-title">Modal Header</h4>
-                </div>
-                <div class="modal-body">
-                  <p>Some text in the modal.</p>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-default"
-                    data-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
+        </div>
       </div>
+    <div class="column">
+        <div class="wrapper">
+      
+        <div class="grid_element">
+            <h1 class="header3">
+                Project
+              </h1>
+        <img src="app2.PNG">
     </div>
+  </div>
+    <div class="wrapper">
+    <div class="grid_element">
+    <h1 class="header3">
+        Project
+      </h1>
+<img src="app3.PNG">
+</div>
+  </div>
+</div>
+    <div class="column">
+        <div class="wrapper">
+        <div class="grid_element">
+            <h1 class="header3">
+                Project
+              </h1>
+        <img src="app2.PNG">
+    </div>
+  </div>
+</div>
+
+  </div>
+  
+  <!-- Footer -->
+
+  
   </body>
-</html>
+  </html>
+  
